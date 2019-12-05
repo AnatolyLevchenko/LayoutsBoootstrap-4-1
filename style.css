@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+@font-face {
+    font-family: 'Segoe WP';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe WP'), url('fonts/SegoeWP.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+.header {
+    margin-top: 25px;
+}
+
+#my-nav>ul>li {
+    font-family: 'Cabin',
+        sans-serif;
+    font-size: 18px;
+    margin-left: 35px;
+}
+
+#my-nav>ul>li>a {
+    color: #d8d8d8;
+}
+
+.carousel-inner {
+    background-image: url(img/slider_background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.slider-text {
+    font-family: 'Segoe WP';
+    color: #fff;
+    margin-left: 100px;
+}
+
+.slider-text p {
+    margin: 0;
+}
+
+.main-title {
+    padding-bottom: 2.5%;
+    font-size: 2rem;
+    border: 0;
+}
+
+.additional-title {
+    padding-bottom: 2%;
+    font-size: 1rem;
+    border: 0;
+}
+
+.sign_in {
+    margin: 20px 10px;
+}
+
+.border {
+    background: url(img/border.png) repeat-x;
+    width: 100%;
+    height: 6px;
+}
+
+.bottom {
+    margin-top: 20px;
+}
+
+.entry-text p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.label-primary {
+    color: #619cf3;
+    font-family: 'Cabin',
+        sans-serif;
+    font-size: 1.5rem;
+}
+
+.label-default {
+    font-family: 'Cabin',
+        sans-serif;
+    font-size: 1.rem;
+    font-weight: bold;
+    color: #e5e5e5;
+}
+
+.cart {
+    margin-top: 70px;
+}
+
+.dummy-text {
+    margin-top: 40px;
+}
+
+.dummy-header {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.dummy-text span {
+    font-family: 'Cabin',
+        sans-serif;
+    color: #6f7173;
+    font-size: 14pt;
+}
+
+.dummy-text p {
+    color: #c9c9c9;
+    margin-bottom: 14px;
+    padding: 0;
+}
+
+.footer {
+    margin-top: 40px;
+    color: #d0d0d0;
+    font-weight: bold;
+}
+
+.carousel-item {
+    /* margin-left: 15%; */
+}
+
+.carousel-item img {
+    /* width: 100%;
+    height: auto; */
+}
