@@ -148,6 +148,22 @@ a.nav-link:hover {
     }
 }
 
+@media (max-width: 479px) {
+    .slider-text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-title {
+        font-size: 14px;
+    }
+
+    .additional-title {
+        font-size: 12px;
+    }
+
+}
+
 .carousel-item {
     /* margin-left: 15%; */
 }
