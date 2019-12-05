@@ -31,6 +31,14 @@ body {
     color: #d8d8d8;
 }
 
+a.nav-link {
+    border-bottom: 4px solid transparent;
+}
+
+a.nav-link:hover {
+    border-bottom: 4px solid #5094f2;
+}
+
 .carousel-inner {
     background-image: url(img/slider_background.png);
     background-size: 100%;
