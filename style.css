@@ -137,6 +137,17 @@ a.nav-link:hover {
     font-weight: bold;
 }
 
+@media (max-width: 443px) {
+    .dummy-text {
+        text-align: center;
+    }
+
+    .shopping-cart img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .carousel-item {
     /* margin-left: 15%; */
 }
