@@ -75,9 +75,12 @@ a.nav-link:hover {
 }
 
 .border {
-    background: url(img/border.png) repeat-x;
+    background: url(img/border.png);
+    background-repeat: repeat-x;
     width: 100%;
-    height: 6px;
+    height: 16px;
+    margin-top: -1px;
+    border: 0 !important;
 }
 
 .bottom {
